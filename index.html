@@ -59,10 +59,18 @@
                         <img class="noreveal" src="img/team-photo.jpg">
                     </p>
                     <aside class="notes">
+                        <p>
                         So, let's meet the team!
+                        </p>
+                        <p>
+                            rtl: Jeroen, Joep, Pieter, Twam, Kevin
+                        </p>
                     </aside>
                 </section>
 
+                <section data-background="#222222">
+                    <video data-autoplay src="video/furry-level0.mp4">
+                </section>
 			</div>
 
 		</div>
@@ -89,7 +97,8 @@
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/remotes/remotes.js', async: true }
 				]
 			});
 
